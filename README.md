@@ -15,7 +15,7 @@ A custom **Byte Pair Encoding (BPE)** tokenizer built from scratch in Python. It
 Run the training script to read `corpus.txt` and generate the BPE rules:
 
 `python train.py`
-
+```bash
 **2. Launch the Web Interface**
 Run the Streamlit app to interactively test tokenization:
 
@@ -31,4 +31,5 @@ text = "Hello world"
 tokens = tools.encode(text)
 
 # Token IDs to Text
-decoded_text = tools.decode(tokens)```
+decoded_text = tools.decode(tokens)
+```
