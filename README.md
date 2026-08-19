@@ -22,13 +22,13 @@ Run the Streamlit app to interactively test tokenization:
 `streamlit run app.py`
 
 **3. Use in Python**
-You can import tools.py directly in your Python code:
+You can `import tools.py` directly in your Python code:
 
-`import tools`
+```import tools
 
-`# Text to Token IDs`
-`text = "Hello world"`
-`tokens = tools.encode(text)`
+# Text to Token IDs
+text = "Hello world"
+tokens = tools.encode(text)
 
-`# Token IDs to Text`
-`decoded_text = tools.decode(tokens)`
+# Token IDs to Text
+decoded_text = tools.decode(tokens)```
