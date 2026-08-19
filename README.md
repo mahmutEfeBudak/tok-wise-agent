@@ -18,8 +18,10 @@ python train.py
 2. Launch the Web Interface
 Run the Streamlit app to interactively test tokenization:
 streamlit run app.py
+```bash
 3. Use in Python
 You can import tools.py directly in your Python code:
+```bash
 import tools
 
 # Text to Token IDs
@@ -28,3 +30,4 @@ tokens = tools.encode(text)
 
 # Token IDs to Text
 decoded_text = tools.decode(tokens)
+```bash
