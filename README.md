@@ -13,15 +13,15 @@ A custom **Byte Pair Encoding (BPE)** tokenizer built from scratch in Python. It
 
 **1. Train the Tokenizer**
 Run the training script to read `corpus.txt` and generate the BPE rules:
-```bash
+
 python train.py
-2. Launch the Web Interface
+
+**2. Launch the Web Interface**
 Run the Streamlit app to interactively test tokenization:
 streamlit run app.py
-```bash
-3. Use in Python
+
+**3. Use in Python**
 You can import tools.py directly in your Python code:
-```bash
 import tools
 
 # Text to Token IDs
